@@ -24,7 +24,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
 # json 3.0 removed quirks_mode; Rails 7.2 still passes it when parsing request bodies
-gem "json", "< 3"
+gem "json", "< 4"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
